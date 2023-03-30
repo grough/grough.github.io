@@ -17,14 +17,23 @@
     img {
       width: 100%;
     }
+    video {
+      width: 100%;
+    }
+    #caterpillars, #water {
+      margin-bottom: 16px;
+    }
   </style>
   <body>
     <p>Hello, this is Gavin Rough writing to you from the internet.</p>
     <p>
-      Here's a picture of some caterpillars taken with my first digital camera
-      in 2004.
+      Caterpillars from April 2004
     </p>
-    <img src="caterpillars-20040430.webp" alt="Caterpillars on a branch" />
+    <img id="caterpillars" src="caterpillars-20040430.webp" alt="Caterpillars on a branch" />
+    <p>Water and mountains from March 2023</p>
+    <video id="water" controls autoplay loop>
+      <source src="water-mountains-20230318.mp4" type="video/mp4">
+    </video>
     <p>Thank you for visiting :)</p>
   </body>
 </html>
