@@ -1,6 +1,0 @@
-{
-    "terminal.integrated.env.osx": {
-        "WEB_BUILD_DIR": "/Users/groughp/code/grough.github.io/out",
-        "WEB_PUBLISH_DIR": "/Users/groughp/code/grough.github.io-publish"
-    }
-}
