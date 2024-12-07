@@ -4,36 +4,57 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gavin Rough's website</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.3;
+        font-size: 20px;
+        margin: 0;
+        background-color: #111;
+        color: #bbb;
+      }
+      strong {
+        color: #eee;
+        font-weight: 500;
+      }
+
+      main {
+        max-width: 540px;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+
+      p {
+        margin: 24px 20px;
+      }
+
+      @media (min-width: 768px) {
+        body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+        }
+
+        main {
+          border: 2px solid #444;
+          margin: 0;
+        }
+      }
+    </style>
   </head>
-  <style>
-    body {
-      max-width: 2048px;
-      margin: 0 auto;
-      font-size: 20px;
-    }
-    p {
-      margin: 16px;
-    }
-    img {
-      width: 100%;
-    }
-    video {
-      width: 100%;
-    }
-    #caterpillars, #water {
-      margin-bottom: 16px;
-    }
-  </style>
   <body>
-    <p>Hello, this is Gavin Rough writing to you from the internet.</p>
-    <p>
-      Caterpillars from April 2004
-    </p>
-    <img id="caterpillars" src="caterpillars-20040430.webp" alt="Caterpillars on a branch" />
-    <p>Water and mountains from March 2023</p>
-    <video id="water" preload="auto" autoplay loop muted playsinline>
-      <source src="water-mountains-20230318.mp4" type="video/mp4">
-    </video>
-    <p>Thank you for visiting :)</p>
+    <main>
+      <p>
+        Hi, this is <strong>Gavin Rough</strong> writing to you from the
+        internet.
+      </p>
+      <p>
+        I'm interested in digital sound, computer programming, and visual art.
+      </p>
+      <p>There's nothing to see on this page right now.</p>
+      <p>See you later!</p>
+    </main>
   </body>
 </html>
