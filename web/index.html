@@ -14,6 +14,13 @@
         background-color: #111;
         color: #bbb;
       }
+
+      a,
+      a:visited {
+        font-size: 14px;
+        color: #eee;
+      }
+
       strong {
         color: #eee;
         font-weight: 500;
@@ -27,6 +34,7 @@
 
       p {
         margin: 24px 20px;
+        text-wrap: balance;
       }
 
       @media (min-width: 768px) {
@@ -42,6 +50,17 @@
           margin: 0;
         }
       }
+
+      ul#links {
+        margin: 24px 20px;
+        padding: 0;
+      }
+
+      ul#links li {
+        text-decoration: none;
+        list-style-type: none;
+        list-style: none;
+      }
     </style>
   </head>
   <body>
@@ -55,6 +74,27 @@
       </p>
       <p>There's nothing to see on this page right now.</p>
       <p>See you later!</p>
+
+      <ul id="links">
+        <li>
+          <a href="https://github.com/grough">github.com/grough</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@gavinrough"
+            >youtube.com/@gavinrough</a
+          >
+        </li>
+        <li>
+          <a href="https://bsky.app/profile/grough.com"
+            >bsky.app/profile/grough.com</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/gavin.rough"
+            >instagram.com/gavin.rough</a
+          >
+        </li>
+      </ul>
     </main>
   </body>
 </html>
