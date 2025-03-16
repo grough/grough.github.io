@@ -1,7 +1,9 @@
+{{ define "styles" }}
+  {{- with resources.Get "css/home.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{- end }}
+{{ end }}
+
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
 {{ end }}
