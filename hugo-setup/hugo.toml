@@ -1,6 +1,6 @@
 baseURL = 'https://grough.com/'
 languageCode = 'en-ca'
-title = "Gavin's Website"
+title = "Gavin Rough's Website"
 
 [markup]
   [markup.goldmark]
