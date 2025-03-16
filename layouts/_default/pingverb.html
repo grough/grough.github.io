@@ -1,0 +1,9 @@
+{{ define "styles" }}
+  {{- with resources.Get "css/pingverb.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{- end }}
+{{ end }}
+
+{{ define "main" }}
+  {{ .Content }}
+{{ end }}
