@@ -1,0 +1,41 @@
+main {
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.release {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.release figure {
+    margin: 0;
+}
+
+.release figure img {
+    width: 100%;
+    height: auto;
+}
+
+.release h2 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.release .audio-player {
+    margin-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.release .audio-player .control-wrapper {
+    padding: 0 20px;
+}
+
+.release .audio-player .control-wrapper audio {
+    width: 100%;
+}
