@@ -88,13 +88,4 @@
       friend in the summer of 2008 and released in February 2009.
   </p>
   </section>
-  <section>
-  <h2>Journal</h2>
-  <p class="link">
-      <a href="/journal/">grough.com/journal</a>
-  </p>
-  <p>
-      A log of things I've made on my computer.
-  </p>
-  </section>
 </main>

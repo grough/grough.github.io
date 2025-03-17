@@ -5,27 +5,29 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ range sort .Pages "Date" "desc" }}
-    <article class="release" id="{{ .Slug }}">
-      {{ with .Resources.Get .Params.Image }}
-        <figure>
-          <img src="{{ .RelPermalink }}">
-        </figure>
-      {{ end }}
-      {{ $page := . }}
-      {{ range .Params.recordings }}
-        <div class="audio-player">
-          <h2>{{ .title }}</h2>
-          {{ with $page.Resources.Get .audio }}
-            <div class="control-wrapper">
-              <audio controls>
-                <source src="{{ .RelPermalink }}" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio>
+  <main>
+    {{ range sort .Pages "Date" "desc" }}
+      <article class="release" id="{{ .Slug }}">
+        {{ with .Resources.Get .Params.Image }}
+          <figure>
+            <img src="{{ .RelPermalink }}">
+          </figure>
+        {{ end }}
+        {{ $page := . }}
+        {{ range .Params.recordings }}
+          <div class="audio-player">
+            <h2>{{ .title }}</h2>
+            {{ with $page.Resources.Get .audio }}
+              <div class="control-wrapper">
+                <audio controls>
+                  <source src="{{ .RelPermalink }}" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            {{ end }}
             </div>
-          {{ end }}
-          </div>
-      {{ end }}
-    </article>
-  {{ end }}
+        {{ end }}
+      </article>
+    {{ end }}
+  </main>
 {{ end }}
