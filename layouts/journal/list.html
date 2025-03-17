@@ -14,14 +14,14 @@
       </p>
     </header>
     {{ range sort .Pages "Date" "desc" }}
-      <div class="item-row">
-        <div class="item-title">
-          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      <a class="entry-row" href="{{ .RelPermalink }}">
+        <div class="entry-title">
+          {{ .LinkTitle }}
         </div>
         {{ with .Resources.Get .Params.Thumbnail }}
-            <img class="item-thumbnail" src="{{ .RelPermalink }}">
+            <img class="entry-thumbnail" src="{{ .RelPermalink }}">
         {{ end }}
-      </div>
+      </a>
     {{ end }}
   </main>
 {{ end }}
