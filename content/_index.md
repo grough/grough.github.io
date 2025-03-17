@@ -1,5 +1,5 @@
 <main>
-  <header>
+  <header class="intro">
     <p>
         Hi, this is <strong>Gavin Rough</strong>. I'm interested in digital
         sound, computer art, and programming. Here are some links:
@@ -86,6 +86,15 @@
   <p>
       The only full-length piece of music I've made so far. Recorded with a
       friend in the summer of 2008 and released in February 2009.
+  </p>
+  </section>
+  <section>
+  <h2>Journal</h2>
+  <p class="link">
+      <a href="/journal/">grough.com/journal</a>
+  </p>
+  <p>
+      A log of things I've made on my computer.
   </p>
   </section>
 </main>

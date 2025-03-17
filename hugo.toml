@@ -10,3 +10,6 @@ title = "Gavin Rough's Website"
 [outputs]
   home = ["HTML"]
   taxonomy = []
+
+[sitemap]
+  disable = true

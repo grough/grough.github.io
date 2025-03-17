@@ -1,0 +1,30 @@
+{{ define "styles" }}
+  {{- with resources.Get "css/journal.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{- end }}
+{{ end }}
+
+{{ define "main" }}
+  <header class="intro">
+    <p>
+        Hi, this is <strong>Gavin Rough</strong>.
+        On this page you can find links to things I've been messing around with.
+        It's kind of like a journal.
+        The most recent things are shown first, followed by older things.
+    </p>
+  </header>
+  {{ range sort .Pages "Date" "desc" }}
+    <!-- <article class="journal-entry" id="{{ .Slug }}">
+      <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+    </article> -->
+
+    <div class="item-row">
+      <div class="item-title">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </div>
+      {{ with .Resources.Get .Params.Thumbnail }}
+          <img class="item-thumbnail" src="{{ .RelPermalink }}">
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
