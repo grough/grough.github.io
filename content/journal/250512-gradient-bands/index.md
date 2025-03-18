@@ -14,4 +14,4 @@ The rows in between are offset somewhere in the middle.
   <img src="gradient-bands.png" />
 </figure>
 
-The source code can be found at [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_240512a_QuantizeOffset/sketch_240512a_QuantizeOffset.pde).
+Source: [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_240512a_QuantizeOffset/sketch_240512a_QuantizeOffset.pde)

@@ -13,4 +13,4 @@ I wanted to try and render an animated blob. Maybe it has a soundtrack? I don't 
   </video>
 </figure>
 
-The source code can be found at [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_250313_Blob/sketch_250313_Blob.pde).
+Source: [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_250313_Blob/sketch_250313_Blob.pde)

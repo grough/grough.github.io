@@ -12,4 +12,4 @@ I imported the layers separately and painted different colours on the different 
   <img src="painted-rings.png" />
 </figure>
 
-The source code can be found at [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_230331b_RingGradientMaskLayers/sketch_230331b_RingGradientMaskLayers.pde).
+Source: [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_230331b_RingGradientMaskLayers/sketch_230331b_RingGradientMaskLayers.pde)
