@@ -1,6 +1,6 @@
 ---
 title: Layered Alpha Mask Painting
-slug: 230401-alpha-mask-layers
+slug: alpha-mask-layers
 date: '2023-04-01T12:00:00-04:00'
 thumbnail: painted-rings-small.png
 ---
