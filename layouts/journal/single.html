@@ -6,13 +6,14 @@
 
 {{ define "main" }}
 <main>
+  <header class="single">
+    <div class="title"><a href="/journal/">Journal</a></div>
+    <div class="date"><time>{{ .Title }}</time></div>
+  </header>
   <article>
-    <h1>{{ .Title }}</h1>
     <div>
       {{ .Content }}
     </div>
   </article>
-
-  <p><a href="/journal/">Back to journal</a></p>
 </main>
 {{ end }}

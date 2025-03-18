@@ -7,6 +7,24 @@ main {
   max-width: 640px;
   margin: 0 auto;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  font-family: sans-serif;
+  margin: 16px 16px 24px 16px;
+}
+
+.title, .date {
+  flex: 1 1 auto;
+}
+
+.date {
+  text-align: right;
+}
+
 p, h1, small {
   margin: 16px 16px;
 }

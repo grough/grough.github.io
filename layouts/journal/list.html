@@ -5,13 +5,8 @@
 {{ end }}
 {{ define "main" }}
   <main>
-    <header class="intro">
-      <p>
-          Hi, this is <strong>Gavin Rough</strong>.
-          On this page you can find links to things I've been messing around with.
-          It's kind of like a journal.
-          The most recent things are shown first, followed by older things.
-      </p>
+    <header>
+      Journal
     </header>
     {{ range sort .Pages "Date" "desc" }}
       <a class="entry-row" href="{{ .RelPermalink }}">

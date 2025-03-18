@@ -4,7 +4,9 @@ slug: spinning-blob
 date: 2025-03-14T19:00:31-04:00
 thumbnail: 20250314-blob.png
 ---
-I wanted to try and render an animated blob. Maybe it has a soundtrack? I don't know, this is just a draft post. It's a modulated circle. It looks kind of like a bean.
+This animation started as a circle.
+The space inside the circle is shaded a darker colour.
+The shape of the circle is animated by adding some wavy motion to its perimeter.
 
 <figure>
   <video autoplay playsinline controls loop>
@@ -12,5 +14,13 @@ I wanted to try and render an animated blob. Maybe it has a soundtrack? I don't 
     Your browser does not support the video tag.
   </video>
 </figure>
+
+The first wave is three times the frequency of the base circle.
+That one move clockwise.
+
+The second wave is two times the frequency of the base circle.
+It's harder to see, but it moves in the opposite direction, counter-clockwise.
+
+When both waves are added to the base circle they make kind of an interesting motion.
 
 Source: [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_250313_Blob/sketch_250313_Blob.pde)
