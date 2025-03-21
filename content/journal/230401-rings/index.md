@@ -7,7 +7,7 @@ thumbnail: painted-rings-small.png
 This is the result of a digital painting process using several different alpha masks overlayed on top of each other. Each mask layer is build from repeating gradients that radiate out from the centre.
 
 <figure>
-  <img src="painted-rings.png" />
+  {{< image "painted-rings.png" >}}
 </figure>
 
 Each mask layer has twice the number of concentric circles as the previous one.

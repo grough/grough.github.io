@@ -8,12 +8,7 @@ This animation started as a circle.
 The space inside the circle is shaded a darker colour.
 The shape of the circle is animated by modulating its size with wave motion.
 
-<figure>
-  <video autoplay playsinline controls loop>
-    <source src="20250317_201706588_sketch_250313_Blob_sSXe8.mp4" poster="20250314-blob.png" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</figure>
+{{< video "20250317_201706588_sketch_250313_Blob_sSXe8.mp4" >}}
 
 The first source of wave motion is three times the frequency of the base circle.
 That wave moves clockwise around the circle.

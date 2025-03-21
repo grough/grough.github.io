@@ -1,0 +1,11 @@
+{{ $src := .Get 0 }}
+{{ with .Page.Resources.GetMatch $src }}
+<figure class="image-figure">
+  <video autoplay playsinline controls loop>
+    <source src="{{ .RelPermalink }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</figure>
+{{ else }}
+  <p>Video not found.</p>
+{{ end }}

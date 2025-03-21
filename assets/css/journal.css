@@ -1,7 +1,7 @@
 body {
   background-color: #111;
   color: #bbb;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 main {
   max-width: 640px;
@@ -35,17 +35,13 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500; 
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 a {
   color: #bbb;
 }
 figure {
   margin: 0;
-}
-figure img, figure video {
-    width: 100%;
-    height: auto;
 }
 .entry-row {
   display: flex;
@@ -67,4 +63,20 @@ figure img, figure video {
   width: 64px;
   height: auto;
   border-radius: 4px;
+}
+.image-figure {
+  margin: 0;
+}
+.image-figure img, .image-figure video {
+  width: 100%;
+  height: auto;
+}
+.image-figure figcaption {
+  padding: 0.25rem;
+  /* text-align: center; */
+  font-size: 0.75rem;
+}
+.image-figure figcaption a {
+  color : #808080;
+  text-decoration: none;
 }

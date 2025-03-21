@@ -10,7 +10,7 @@ The bottom row ends with the lightest color.
 Each row in between is offset relative to its position in the stack of rows.
 
 <figure>
-  <img src="offset-gradient.png" />
+  {{< image "offset-gradient.png" "640x" "Colourful gradients split across seven rows" >}}
 </figure>
 
 Source: [github.com/grough/sketchbook](https://github.com/grough/sketchbook/blob/main/sketch_240512a_QuantizeOffset/sketch_240512a_QuantizeOffset.pde)
