@@ -1,7 +1,9 @@
 {{ $src := .Get 0 }}
+{{ $width := .Get 1 }}
+{{ $height := .Get 2 }}
 {{ with .Page.Resources.GetMatch $src }}
 <figure class="image-figure">
-  <video autoplay playsinline controls loop>
+  <video autoplay playsinline controls loop width="{{ $width }}" height="{{ $height }}">
     <source src="{{ .RelPermalink }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
